@@ -1,0 +1,630 @@
+2018-10-30 18:29:08   INFO  com.dudu.Application - Starting Application on Denglimeng with PID 82284 (D:\source\development\workspace\java\demo2\target\classes started by dlm in D:\source\development\workspace\java\demo2)
+2018-10-30 18:29:08   INFO  com.dudu.Application - No active profile set, falling back to default profiles: default
+2018-10-30 18:29:08   INFO  com.dudu.Application - Starting Application on Denglimeng with PID 84808 (D:\source\development\workspace\java\demo2\target\classes started by dlm in D:\source\development\workspace\java\demo2)
+2018-10-30 18:29:08   INFO  com.dudu.Application - No active profile set, falling back to default profiles: default
+2018-10-30 18:29:10   INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2018-10-30 18:29:10   INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2018-10-30 18:29:11   INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3753b4: startup date [Tue Oct 30 18:29:11 CST 2018]; root of context hierarchy
+2018-10-30 18:29:11   INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3435aa: startup date [Tue Oct 30 18:29:11 CST 2018]; root of context hierarchy
+2018-10-30 18:29:13   INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$593a5353] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-30 18:29:14   INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c2eea06] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-30 18:29:16   INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2018-10-30 18:29:16   INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2018-10-30 18:29:16   INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5833 ms
+2018-10-30 18:29:16   INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5797 ms
+2018-10-30 18:29:17   INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-10-30 18:29:17   INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-10-30 18:29:17   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-30 18:29:17   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-30 18:29:17   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-30 18:29:17   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-30 18:29:17   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-10-30 18:29:17   INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-10-30 18:29:17   INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-10-30 18:29:17   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-30 18:29:17   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-30 18:29:17   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-30 18:29:17   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-30 18:29:17   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-10-30 18:29:20   INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1280}
+2018-10-30 18:29:20   INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1280}
+2018-10-30 18:29:21   INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:17}] to localhost:27017
+2018-10-30 18:29:21   INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 1]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=772741}
+2018-10-30 18:29:21   INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:18}] to localhost:27017
+2018-10-30 18:29:21   INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 1]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=886519}
+2018-10-30 18:29:21   INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:19}] to localhost:27017
+2018-10-30 18:29:21   INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:20}] to localhost:27017
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3435aa: startup date [Tue Oct 30 18:29:11 CST 2018]; root of context hierarchy
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3753b4: startup date [Tue Oct 30 18:29:11 CST 2018]; root of context hierarchy
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @ModelAttribute methods in businessExceptionHandler
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @InitBinder methods in businessExceptionHandler
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @ModelAttribute methods in businessExceptionHandler
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @InitBinder methods in businessExceptionHandler
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/ex]}" onto public java.lang.String com.dudu.controller.BaseErrorController.error()
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/json]}" onto public void com.dudu.controller.BaseErrorController.json(org.springframework.ui.ModelMap)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/exception]}" onto public void com.dudu.controller.BaseErrorController.catchException()
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index]}" onto public java.lang.String com.dudu.controller.IndexController.index(org.springframework.ui.Model)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main]}" onto public java.lang.String com.dudu.controller.IndexController.main(org.springframework.ui.Model)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yangoindex]}" onto public java.lang.String com.dudu.controller.IndexController.yangoindex(org.springframework.ui.Model)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.dudu.controller.IndexController.queryContractIndex(org.springframework.ui.Model)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/ex]}" onto public java.lang.String com.dudu.controller.BaseErrorController.error()
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn]}" onto public java.lang.String com.dudu.controller.LearnController.learn(org.springframework.ui.Model)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/exception]}" onto public void com.dudu.controller.BaseErrorController.catchException()
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/add],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.addLearn(com.dudu.domain.LearnResource)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/queryLeanList],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.queryLearnList(com.dudu.util.Page<com.dudu.model.LeanQueryLeanListReq>)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/json]}" onto public void com.dudu.controller.BaseErrorController.json(org.springframework.ui.ModelMap)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/update],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.updateLearn(com.dudu.domain.LearnResource)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/delete],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.deleteLearn(java.lang.Long[])
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index]}" onto public java.lang.String com.dudu.controller.IndexController.index(org.springframework.ui.Model)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/toLogin]}" onto public java.lang.String com.dudu.controller.LoginController.toLogin(org.springframework.ui.Model)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main]}" onto public java.lang.String com.dudu.controller.IndexController.main(org.springframework.ui.Model)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.controller.LoginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.dudu.controller.IndexController.queryContractIndex(org.springframework.ui.Model)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yangoindex]}" onto public java.lang.String com.dudu.controller.IndexController.yangoindex(org.springframework.ui.Model)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn]}" onto public java.lang.String com.dudu.controller.LearnController.learn(org.springframework.ui.Model)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/500]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> com.dudu.controller.MyBasicErrorController.error500(javax.servlet.http.HttpServletRequest)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/add],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.addLearn(com.dudu.domain.LearnResource)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/404],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.MyBasicErrorController.errorHtml400(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/update],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.updateLearn(com.dudu.domain.LearnResource)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/500],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.MyBasicErrorController.errorHtml500(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/queryLeanList],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.queryLearnList(com.dudu.util.Page<com.dudu.model.LeanQueryLeanListReq>)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/delete],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.deleteLearn(java.lang.Long[])
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryOrderByDays]}" onto public java.util.List<com.dudu.mongo.domin.认购> com.dudu.controller.OrderController.queryOrderByDays(int)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.controller.LoginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/toLogin]}" onto public java.lang.String com.dudu.controller.LoginController.toLogin(org.springframework.ui.Model)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays]}" onto public java.lang.String com.dudu.controller.PayController.payindex()
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/pay]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.controller.PayController.pay(javax.servlet.http.HttpServletRequest,java.lang.String,int) throws java.io.UnsupportedEncodingException
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/notifyPay]}" onto public void com.dudu.controller.PayController.notifyPay(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.dudu.model.PaySaPi) throws java.io.UnsupportedEncodingException
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/returnPay]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.PayController.returnPay(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryContract],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.mongo.controller.QueryContractController.queryContract(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryContractDetail],methods=[POST]}" onto public java.util.List<com.dudu.mongo.domin.合同> com.dudu.mongo.controller.QueryContractController.queryDetail(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/500]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> com.dudu.controller.MyBasicErrorController.error500(javax.servlet.http.HttpServletRequest)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/404],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.MyBasicErrorController.errorHtml400(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/500],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.MyBasicErrorController.errorHtml500(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/update/{id}]}" onto public java.lang.String com.dudu.mongo.controller.UserController.update(int)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/find/all]}" onto public java.util.List<com.dudu.mongo.domin.User> com.dudu.mongo.controller.UserController.find()
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/delete/{id}]}" onto public java.lang.String com.dudu.mongo.controller.UserController.delete(int)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/add]}" onto public java.lang.String com.dudu.mongo.controller.UserController.insert()
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/get/{id}]}" onto public com.dudu.mongo.domin.User com.dudu.mongo.controller.UserController.getUser(int)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/insert]}" onto public java.lang.String com.dudu.mongo.controller.UserController.insertAll()
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryOrderByDays]}" onto public java.util.List<com.dudu.mongo.domin.认购> com.dudu.controller.OrderController.queryOrderByDays(int)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/find/{start}]}" onto public java.util.List<com.dudu.mongo.domin.User> com.dudu.mongo.controller.UserController.findByPage(int,com.dudu.mongo.domin.User)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays]}" onto public java.lang.String com.dudu.controller.PayController.payindex()
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/pay]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.controller.PayController.pay(javax.servlet.http.HttpServletRequest,java.lang.String,int) throws java.io.UnsupportedEncodingException
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/notifyPay]}" onto public void com.dudu.controller.PayController.notifyPay(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.dudu.model.PaySaPi) throws java.io.UnsupportedEncodingException
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/returnPay]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.PayController.returnPay(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryContract],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.mongo.controller.QueryContractController.queryContract(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryContractDetail],methods=[POST]}" onto public java.util.List<com.dudu.mongo.domin.合同> com.dudu.mongo.controller.QueryContractController.queryDetail(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/update/{id}]}" onto public java.lang.String com.dudu.mongo.controller.UserController.update(int)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/find/all]}" onto public java.util.List<com.dudu.mongo.domin.User> com.dudu.mongo.controller.UserController.find()
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/delete/{id}]}" onto public java.lang.String com.dudu.mongo.controller.UserController.delete(int)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/add]}" onto public java.lang.String com.dudu.mongo.controller.UserController.insert()
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/insert]}" onto public java.lang.String com.dudu.mongo.controller.UserController.insertAll()
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/get/{id}]}" onto public com.dudu.mongo.domin.User com.dudu.mongo.controller.UserController.getUser(int)
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/find/{start}]}" onto public java.util.List<com.dudu.mongo.domin.User> com.dudu.mongo.controller.UserController.findByPage(int,com.dudu.mongo.domin.User)
+2018-10-30 18:29:23   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/my/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:29:23   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:29:23   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:29:23   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/my/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:29:23   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:29:23   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in businessExceptionHandler
+2018-10-30 18:29:23   INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in businessExceptionHandler
+2018-10-30 18:29:23   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:29:23   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:29:25   INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-10-30 18:29:25   WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2018-10-30 18:29:25   INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-10-30 18:29:25   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-10-30 18:29:25   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-10-30 18:29:25   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'wallFilter' has been autodetected for JMX exposure
+2018-10-30 18:29:25   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-10-30 18:29:25   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'wallFilter': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallFilter,type=WallFilter]
+2018-10-30 18:29:25   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-10-30 18:29:25   INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-10-30 18:29:25   INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-10-30 18:29:25   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-10-30 18:29:25   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-10-30 18:29:25   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'wallFilter' has been autodetected for JMX exposure
+2018-10-30 18:29:25   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-10-30 18:29:25   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'wallFilter': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallFilter,type=WallFilter]
+2018-10-30 18:29:25   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-10-30 18:29:25   INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-10-30 18:29:26   INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2018-10-30 18:29:26   INFO  com.dudu.Application - Started Application in 19.524 seconds (JVM running for 29.084)
+2018-10-30 18:29:26   INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-10-30 18:29:26   ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-10-30 18:29:26   INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3753b4: startup date [Tue Oct 30 18:29:11 CST 2018]; root of context hierarchy
+2018-10-30 18:29:26   INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-10-30 18:29:26   INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-10-30 18:29:26   INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:19}] to localhost:27017 because the pool has been closed.
+2018-10-30 18:30:34   INFO  com.dudu.Application - Starting Application on Denglimeng with PID 15908 (D:\source\development\workspace\java\demo2\target\classes started by dlm in D:\source\development\workspace\java\demo2)
+2018-10-30 18:30:34   INFO  com.dudu.Application - No active profile set, falling back to default profiles: default
+2018-10-30 18:30:34   INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@94579e: startup date [Tue Oct 30 18:30:34 CST 2018]; root of context hierarchy
+2018-10-30 18:30:34   INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2018-10-30 18:30:35   INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$776d0a54] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-30 18:30:36   INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2018-10-30 18:30:36   INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2004 ms
+2018-10-30 18:30:36   INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-10-30 18:30:36   INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-10-30 18:30:36   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-30 18:30:36   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-30 18:30:36   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-30 18:30:36   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-30 18:30:36   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-10-30 18:30:37   INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1280}
+2018-10-30 18:30:37   INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:21}] to localhost:27017
+2018-10-30 18:30:37   INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 1]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=573995}
+2018-10-30 18:30:38   INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:22}] to localhost:27017
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@94579e: startup date [Tue Oct 30 18:30:34 CST 2018]; root of context hierarchy
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @ModelAttribute methods in businessExceptionHandler
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @InitBinder methods in businessExceptionHandler
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/ex]}" onto public java.lang.String com.dudu.controller.BaseErrorController.error()
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/exception]}" onto public void com.dudu.controller.BaseErrorController.catchException()
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/json]}" onto public void com.dudu.controller.BaseErrorController.json(org.springframework.ui.ModelMap)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index]}" onto public java.lang.String com.dudu.controller.IndexController.index(org.springframework.ui.Model)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main]}" onto public java.lang.String com.dudu.controller.IndexController.main(org.springframework.ui.Model)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yangoindex]}" onto public java.lang.String com.dudu.controller.IndexController.yangoindex(org.springframework.ui.Model)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.dudu.controller.IndexController.queryContractIndex(org.springframework.ui.Model)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/delete],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.deleteLearn(java.lang.Long[])
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/update],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.updateLearn(com.dudu.domain.LearnResource)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/queryLeanList],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.queryLearnList(com.dudu.util.Page<com.dudu.model.LeanQueryLeanListReq>)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/add],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.addLearn(com.dudu.domain.LearnResource)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn]}" onto public java.lang.String com.dudu.controller.LearnController.learn(org.springframework.ui.Model)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.controller.LoginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/toLogin]}" onto public java.lang.String com.dudu.controller.LoginController.toLogin(org.springframework.ui.Model)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/404],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.MyBasicErrorController.errorHtml400(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/500],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.MyBasicErrorController.errorHtml500(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/500]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> com.dudu.controller.MyBasicErrorController.error500(javax.servlet.http.HttpServletRequest)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryOrderByDays]}" onto public java.util.List<com.dudu.mongo.domin.认购> com.dudu.controller.OrderController.queryOrderByDays(int)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/returnPay]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.PayController.returnPay(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/notifyPay]}" onto public void com.dudu.controller.PayController.notifyPay(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.dudu.model.PaySaPi) throws java.io.UnsupportedEncodingException
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/pay]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.controller.PayController.pay(javax.servlet.http.HttpServletRequest,java.lang.String,int) throws java.io.UnsupportedEncodingException
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays]}" onto public java.lang.String com.dudu.controller.PayController.payindex()
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryContract],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.mongo.controller.QueryContractController.queryContract(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryContractDetail],methods=[POST]}" onto public java.util.List<com.dudu.mongo.domin.合同> com.dudu.mongo.controller.QueryContractController.queryDetail(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/update/{id}]}" onto public java.lang.String com.dudu.mongo.controller.UserController.update(int)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/find/all]}" onto public java.util.List<com.dudu.mongo.domin.User> com.dudu.mongo.controller.UserController.find()
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/delete/{id}]}" onto public java.lang.String com.dudu.mongo.controller.UserController.delete(int)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/add]}" onto public java.lang.String com.dudu.mongo.controller.UserController.insert()
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/insert]}" onto public java.lang.String com.dudu.mongo.controller.UserController.insertAll()
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/find/{start}]}" onto public java.util.List<com.dudu.mongo.domin.User> com.dudu.mongo.controller.UserController.findByPage(int,com.dudu.mongo.domin.User)
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/get/{id}]}" onto public com.dudu.mongo.domin.User com.dudu.mongo.controller.UserController.getUser(int)
+2018-10-30 18:30:38   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/my/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:30:38   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:30:38   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:30:38   INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in businessExceptionHandler
+2018-10-30 18:30:38   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:30:39   INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-10-30 18:30:39   INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-10-30 18:30:39   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-10-30 18:30:39   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-10-30 18:30:39   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'wallFilter' has been autodetected for JMX exposure
+2018-10-30 18:30:39   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-10-30 18:30:39   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'wallFilter': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallFilter,type=WallFilter]
+2018-10-30 18:30:39   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-10-30 18:30:39   INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-10-30 18:30:39   INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-10-30 18:30:39   ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-10-30 18:30:39   INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@94579e: startup date [Tue Oct 30 18:30:34 CST 2018]; root of context hierarchy
+2018-10-30 18:30:39   INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-10-30 18:30:39   INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-10-30 18:30:39   INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:22}] to localhost:27017 because the pool has been closed.
+2018-10-30 18:31:44   INFO  com.dudu.Application - Starting Application on Denglimeng with PID 69792 (D:\source\development\workspace\java\demo2\target\classes started by dlm in D:\source\development\workspace\java\demo2)
+2018-10-30 18:31:44   INFO  com.dudu.Application - No active profile set, falling back to default profiles: default
+2018-10-30 18:31:45   INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1bf51ab: startup date [Tue Oct 30 18:31:45 CST 2018]; root of context hierarchy
+2018-10-30 18:31:45   INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2018-10-30 18:31:46   INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3435aa: startup date [Tue Oct 30 18:29:11 CST 2018]; root of context hierarchy
+2018-10-30 18:31:46   INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-10-30 18:31:46   INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-10-30 18:31:46   INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:20}] to localhost:27017 because the pool has been closed.
+2018-10-30 18:31:46   INFO  com.dudu.Application - Starting Application on Denglimeng with PID 82284 (D:\source\development\workspace\java\demo2\target\classes started by dlm in D:\source\development\workspace\java\demo2)
+2018-10-30 18:31:46   INFO  com.dudu.Application - No active profile set, falling back to default profiles: default
+2018-10-30 18:31:46   INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ec4e7a: startup date [Tue Oct 30 18:31:46 CST 2018]; root of context hierarchy
+2018-10-30 18:31:47   INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dc88bffa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-30 18:31:47   INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c2eea06] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-30 18:31:47   INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2018-10-30 18:31:47   INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 842 ms
+2018-10-30 18:31:47   INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-10-30 18:31:47   INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-10-30 18:31:47   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-30 18:31:47   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-30 18:31:47   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-30 18:31:47   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-30 18:31:47   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-10-30 18:31:48   INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2018-10-30 18:31:48   INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1280}
+2018-10-30 18:31:48   INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:23}] to localhost:27017
+2018-10-30 18:31:48   INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 1]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=626507}
+2018-10-30 18:31:48   INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:24}] to localhost:27017
+2018-10-30 18:31:48   INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2946 ms
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ec4e7a: startup date [Tue Oct 30 18:31:46 CST 2018]; root of context hierarchy
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @ModelAttribute methods in businessExceptionHandler
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @InitBinder methods in businessExceptionHandler
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/ex]}" onto public java.lang.String com.dudu.controller.BaseErrorController.error()
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/exception]}" onto public void com.dudu.controller.BaseErrorController.catchException()
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/json]}" onto public void com.dudu.controller.BaseErrorController.json(org.springframework.ui.ModelMap)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index]}" onto public java.lang.String com.dudu.controller.IndexController.index(org.springframework.ui.Model)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main]}" onto public java.lang.String com.dudu.controller.IndexController.main(org.springframework.ui.Model)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.dudu.controller.IndexController.queryContractIndex(org.springframework.ui.Model)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yangoindex]}" onto public java.lang.String com.dudu.controller.IndexController.yangoindex(org.springframework.ui.Model)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn]}" onto public java.lang.String com.dudu.controller.LearnController.learn(org.springframework.ui.Model)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/add],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.addLearn(com.dudu.domain.LearnResource)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/update],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.updateLearn(com.dudu.domain.LearnResource)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/queryLeanList],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.queryLearnList(com.dudu.util.Page<com.dudu.model.LeanQueryLeanListReq>)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/delete],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.deleteLearn(java.lang.Long[])
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.controller.LoginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/toLogin]}" onto public java.lang.String com.dudu.controller.LoginController.toLogin(org.springframework.ui.Model)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/500]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> com.dudu.controller.MyBasicErrorController.error500(javax.servlet.http.HttpServletRequest)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/404],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.MyBasicErrorController.errorHtml400(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/500],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.MyBasicErrorController.errorHtml500(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryOrderByDays]}" onto public java.util.List<com.dudu.mongo.domin.认购> com.dudu.controller.OrderController.queryOrderByDays(int)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays]}" onto public java.lang.String com.dudu.controller.PayController.payindex()
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/pay]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.controller.PayController.pay(javax.servlet.http.HttpServletRequest,java.lang.String,int) throws java.io.UnsupportedEncodingException
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/notifyPay]}" onto public void com.dudu.controller.PayController.notifyPay(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.dudu.model.PaySaPi) throws java.io.UnsupportedEncodingException
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/returnPay]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.PayController.returnPay(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryContract],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.mongo.controller.QueryContractController.queryContract(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryContractDetail],methods=[POST]}" onto public java.util.List<com.dudu.mongo.domin.合同> com.dudu.mongo.controller.QueryContractController.queryDetail(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/update/{id}]}" onto public java.lang.String com.dudu.mongo.controller.UserController.update(int)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/find/all]}" onto public java.util.List<com.dudu.mongo.domin.User> com.dudu.mongo.controller.UserController.find()
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/delete/{id}]}" onto public java.lang.String com.dudu.mongo.controller.UserController.delete(int)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/add]}" onto public java.lang.String com.dudu.mongo.controller.UserController.insert()
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/insert]}" onto public java.lang.String com.dudu.mongo.controller.UserController.insertAll()
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/get/{id}]}" onto public com.dudu.mongo.domin.User com.dudu.mongo.controller.UserController.getUser(int)
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/find/{start}]}" onto public java.util.List<com.dudu.mongo.domin.User> com.dudu.mongo.controller.UserController.findByPage(int,com.dudu.mongo.domin.User)
+2018-10-30 18:31:48   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/my/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:31:48   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:31:48   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:31:48   INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in businessExceptionHandler
+2018-10-30 18:31:48   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:31:48   INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-10-30 18:31:48   INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-10-30 18:31:48   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-30 18:31:48   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-30 18:31:48   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-30 18:31:48   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-30 18:31:48   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-10-30 18:31:48   INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-10-30 18:31:48   INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-10-30 18:31:48   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-10-30 18:31:48   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-10-30 18:31:48   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'wallFilter' has been autodetected for JMX exposure
+2018-10-30 18:31:48   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-10-30 18:31:48   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'wallFilter': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallFilter,type=WallFilter]
+2018-10-30 18:31:48   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-10-30 18:31:48   INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-10-30 18:31:48   INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2018-10-30 18:31:48   INFO  com.dudu.Application - Started Application in 2.026 seconds (JVM running for 171.91)
+2018-10-30 18:31:49   INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1280}
+2018-10-30 18:31:49   INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:25}] to localhost:27017
+2018-10-30 18:31:49   INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 1]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=467510}
+2018-10-30 18:31:50   INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:26}] to localhost:27017
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1bf51ab: startup date [Tue Oct 30 18:31:45 CST 2018]; root of context hierarchy
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @ModelAttribute methods in businessExceptionHandler
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @InitBinder methods in businessExceptionHandler
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/ex]}" onto public java.lang.String com.dudu.controller.BaseErrorController.error()
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/exception]}" onto public void com.dudu.controller.BaseErrorController.catchException()
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/json]}" onto public void com.dudu.controller.BaseErrorController.json(org.springframework.ui.ModelMap)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index]}" onto public java.lang.String com.dudu.controller.IndexController.index(org.springframework.ui.Model)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main]}" onto public java.lang.String com.dudu.controller.IndexController.main(org.springframework.ui.Model)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yangoindex]}" onto public java.lang.String com.dudu.controller.IndexController.yangoindex(org.springframework.ui.Model)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.dudu.controller.IndexController.queryContractIndex(org.springframework.ui.Model)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/add],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.addLearn(com.dudu.domain.LearnResource)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn]}" onto public java.lang.String com.dudu.controller.LearnController.learn(org.springframework.ui.Model)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/queryLeanList],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.queryLearnList(com.dudu.util.Page<com.dudu.model.LeanQueryLeanListReq>)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/update],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.updateLearn(com.dudu.domain.LearnResource)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/delete],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.deleteLearn(java.lang.Long[])
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/toLogin]}" onto public java.lang.String com.dudu.controller.LoginController.toLogin(org.springframework.ui.Model)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.controller.LoginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/500]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> com.dudu.controller.MyBasicErrorController.error500(javax.servlet.http.HttpServletRequest)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/500],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.MyBasicErrorController.errorHtml500(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/404],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.MyBasicErrorController.errorHtml400(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryOrderByDays]}" onto public java.util.List<com.dudu.mongo.domin.认购> com.dudu.controller.OrderController.queryOrderByDays(int)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays]}" onto public java.lang.String com.dudu.controller.PayController.payindex()
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/pay]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.controller.PayController.pay(javax.servlet.http.HttpServletRequest,java.lang.String,int) throws java.io.UnsupportedEncodingException
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/returnPay]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.PayController.returnPay(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/notifyPay]}" onto public void com.dudu.controller.PayController.notifyPay(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.dudu.model.PaySaPi) throws java.io.UnsupportedEncodingException
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryContract],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.mongo.controller.QueryContractController.queryContract(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryContractDetail],methods=[POST]}" onto public java.util.List<com.dudu.mongo.domin.合同> com.dudu.mongo.controller.QueryContractController.queryDetail(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/update/{id}]}" onto public java.lang.String com.dudu.mongo.controller.UserController.update(int)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/find/all]}" onto public java.util.List<com.dudu.mongo.domin.User> com.dudu.mongo.controller.UserController.find()
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/delete/{id}]}" onto public java.lang.String com.dudu.mongo.controller.UserController.delete(int)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/add]}" onto public java.lang.String com.dudu.mongo.controller.UserController.insert()
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/get/{id}]}" onto public com.dudu.mongo.domin.User com.dudu.mongo.controller.UserController.getUser(int)
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/insert]}" onto public java.lang.String com.dudu.mongo.controller.UserController.insertAll()
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/find/{start}]}" onto public java.util.List<com.dudu.mongo.domin.User> com.dudu.mongo.controller.UserController.findByPage(int,com.dudu.mongo.domin.User)
+2018-10-30 18:31:50   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/my/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:31:50   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:31:50   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:31:50   INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in businessExceptionHandler
+2018-10-30 18:31:50   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:31:51   WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2018-10-30 18:31:51   INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-10-30 18:31:51   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-10-30 18:31:51   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-10-30 18:31:51   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'wallFilter' has been autodetected for JMX exposure
+2018-10-30 18:31:51   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-10-30 18:31:51   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'wallFilter': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallFilter,type=WallFilter]
+2018-10-30 18:31:51   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-10-30 18:31:51   INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-10-30 18:31:51   INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-10-30 18:31:51   ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-10-30 18:31:51   INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1bf51ab: startup date [Tue Oct 30 18:31:45 CST 2018]; root of context hierarchy
+2018-10-30 18:31:51   INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-10-30 18:31:51   INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-10-30 18:31:51   INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:26}] to localhost:27017 because the pool has been closed.
+2018-10-30 18:33:58   INFO  com.dudu.Application - Starting Application on Denglimeng with PID 62300 (D:\source\development\workspace\java\demo2\target\classes started by dlm in D:\source\development\workspace\java\demo2)
+2018-10-30 18:33:58   INFO  com.dudu.Application - No active profile set, falling back to default profiles: default
+2018-10-30 18:33:58   INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@94579e: startup date [Tue Oct 30 18:33:58 CST 2018]; root of context hierarchy
+2018-10-30 18:33:58   INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2018-10-30 18:33:59   INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4eddaa5c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-30 18:34:00   INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2018-10-30 18:34:00   INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2009 ms
+2018-10-30 18:34:00   INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-10-30 18:34:00   INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-10-30 18:34:00   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-30 18:34:00   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-30 18:34:00   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-30 18:34:00   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-30 18:34:00   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-10-30 18:34:01   INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1280}
+2018-10-30 18:34:01   INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:27}] to localhost:27017
+2018-10-30 18:34:01   INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 1]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=488662}
+2018-10-30 18:34:02   INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:28}] to localhost:27017
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@94579e: startup date [Tue Oct 30 18:33:58 CST 2018]; root of context hierarchy
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @ModelAttribute methods in businessExceptionHandler
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @InitBinder methods in businessExceptionHandler
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/ex]}" onto public java.lang.String com.dudu.controller.BaseErrorController.error()
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/exception]}" onto public void com.dudu.controller.BaseErrorController.catchException()
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/json]}" onto public void com.dudu.controller.BaseErrorController.json(org.springframework.ui.ModelMap)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index]}" onto public java.lang.String com.dudu.controller.IndexController.index(org.springframework.ui.Model)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main]}" onto public java.lang.String com.dudu.controller.IndexController.main(org.springframework.ui.Model)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yangoindex]}" onto public java.lang.String com.dudu.controller.IndexController.yangoindex(org.springframework.ui.Model)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.dudu.controller.IndexController.queryContractIndex(org.springframework.ui.Model)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/delete],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.deleteLearn(java.lang.Long[])
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/queryLeanList],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.queryLearnList(com.dudu.util.Page<com.dudu.model.LeanQueryLeanListReq>)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/update],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.updateLearn(com.dudu.domain.LearnResource)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn]}" onto public java.lang.String com.dudu.controller.LearnController.learn(org.springframework.ui.Model)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/add],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.addLearn(com.dudu.domain.LearnResource)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/toLogin]}" onto public java.lang.String com.dudu.controller.LoginController.toLogin(org.springframework.ui.Model)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.controller.LoginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/500],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.MyBasicErrorController.errorHtml500(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/404],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.MyBasicErrorController.errorHtml400(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/500]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> com.dudu.controller.MyBasicErrorController.error500(javax.servlet.http.HttpServletRequest)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryOrderByDays]}" onto public java.util.List<com.dudu.mongo.domin.认购> com.dudu.controller.OrderController.queryOrderByDays(int)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/notifyPay]}" onto public void com.dudu.controller.PayController.notifyPay(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.dudu.model.PaySaPi) throws java.io.UnsupportedEncodingException
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/returnPay]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.PayController.returnPay(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/pay]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.controller.PayController.pay(javax.servlet.http.HttpServletRequest,java.lang.String,int) throws java.io.UnsupportedEncodingException
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays]}" onto public java.lang.String com.dudu.controller.PayController.payindex()
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryContract],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.mongo.controller.QueryContractController.queryContract(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryContractDetail],methods=[POST]}" onto public java.util.List<com.dudu.mongo.domin.合同> com.dudu.mongo.controller.QueryContractController.queryDetail(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/update/{id}]}" onto public java.lang.String com.dudu.mongo.controller.UserController.update(int)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/find/all]}" onto public java.util.List<com.dudu.mongo.domin.User> com.dudu.mongo.controller.UserController.find()
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/delete/{id}]}" onto public java.lang.String com.dudu.mongo.controller.UserController.delete(int)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/add]}" onto public java.lang.String com.dudu.mongo.controller.UserController.insert()
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/get/{id}]}" onto public com.dudu.mongo.domin.User com.dudu.mongo.controller.UserController.getUser(int)
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/insert]}" onto public java.lang.String com.dudu.mongo.controller.UserController.insertAll()
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/find/{start}]}" onto public java.util.List<com.dudu.mongo.domin.User> com.dudu.mongo.controller.UserController.findByPage(int,com.dudu.mongo.domin.User)
+2018-10-30 18:34:02   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/my/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:34:02   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:34:02   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:34:02   INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in businessExceptionHandler
+2018-10-30 18:34:02   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:34:03   INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-10-30 18:34:03   INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-10-30 18:34:03   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-10-30 18:34:03   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-10-30 18:34:03   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'wallFilter' has been autodetected for JMX exposure
+2018-10-30 18:34:03   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-10-30 18:34:03   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'wallFilter': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallFilter,type=WallFilter]
+2018-10-30 18:34:03   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-10-30 18:34:03   INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-10-30 18:34:03   INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2018-10-30 18:34:03   INFO  com.dudu.Application - Started Application in 5.822 seconds (JVM running for 6.288)
+2018-10-30 18:34:25   INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-10-30 18:34:25   INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2018-10-30 18:36:50   INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@94579e: startup date [Tue Oct 30 18:33:58 CST 2018]; root of context hierarchy
+2018-10-30 18:36:50   INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-10-30 18:36:50   INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-10-30 18:36:50   INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:28}] to localhost:27017 because the pool has been closed.
+2018-10-30 18:36:50   INFO  com.dudu.Application - Starting Application on Denglimeng with PID 62300 (D:\source\development\workspace\java\demo2\target\classes started by dlm in D:\source\development\workspace\java\demo2)
+2018-10-30 18:36:50   INFO  com.dudu.Application - No active profile set, falling back to default profiles: default
+2018-10-30 18:36:50   INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16a2690: startup date [Tue Oct 30 18:36:50 CST 2018]; root of context hierarchy
+2018-10-30 18:36:51   INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4eddaa5c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-30 18:36:51   INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2018-10-30 18:36:51   INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 627 ms
+2018-10-30 18:36:51   INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-10-30 18:36:51   INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-10-30 18:36:51   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-30 18:36:51   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-30 18:36:51   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-30 18:36:51   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-30 18:36:51   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-10-30 18:36:51   INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1280}
+2018-10-30 18:36:51   INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:29}] to localhost:27017
+2018-10-30 18:36:51   INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 1]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=341698}
+2018-10-30 18:36:51   INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:30}] to localhost:27017
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16a2690: startup date [Tue Oct 30 18:36:50 CST 2018]; root of context hierarchy
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @ModelAttribute methods in businessExceptionHandler
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @InitBinder methods in businessExceptionHandler
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/ex]}" onto public java.lang.String com.dudu.controller.BaseErrorController.error()
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/exception]}" onto public void com.dudu.controller.BaseErrorController.catchException()
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/json]}" onto public void com.dudu.controller.BaseErrorController.json(org.springframework.ui.ModelMap)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index]}" onto public java.lang.String com.dudu.controller.IndexController.index(org.springframework.ui.Model)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main]}" onto public java.lang.String com.dudu.controller.IndexController.main(org.springframework.ui.Model)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yangoindex]}" onto public java.lang.String com.dudu.controller.IndexController.yangoindex(org.springframework.ui.Model)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.dudu.controller.IndexController.queryContractIndex(org.springframework.ui.Model)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/delete],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.deleteLearn(java.lang.Long[])
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/queryLeanList],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.queryLearnList(com.dudu.util.Page<com.dudu.model.LeanQueryLeanListReq>)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/update],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.updateLearn(com.dudu.domain.LearnResource)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn]}" onto public java.lang.String com.dudu.controller.LearnController.learn(org.springframework.ui.Model)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/add],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.addLearn(com.dudu.domain.LearnResource)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/toLogin]}" onto public java.lang.String com.dudu.controller.LoginController.toLogin(org.springframework.ui.Model)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.controller.LoginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/500],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.MyBasicErrorController.errorHtml500(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/404],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.MyBasicErrorController.errorHtml400(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/500]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> com.dudu.controller.MyBasicErrorController.error500(javax.servlet.http.HttpServletRequest)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryOrderByDays]}" onto public java.util.List<com.dudu.mongo.domin.认购> com.dudu.controller.OrderController.queryOrderByDays(int)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/notifyPay]}" onto public void com.dudu.controller.PayController.notifyPay(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.dudu.model.PaySaPi) throws java.io.UnsupportedEncodingException
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/returnPay]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.PayController.returnPay(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/pay]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.controller.PayController.pay(javax.servlet.http.HttpServletRequest,java.lang.String,int) throws java.io.UnsupportedEncodingException
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays]}" onto public java.lang.String com.dudu.controller.PayController.payindex()
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryContract],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.mongo.controller.QueryContractController.queryContract(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryContractDetail],methods=[POST]}" onto public java.util.List<com.dudu.mongo.domin.合同> com.dudu.mongo.controller.QueryContractController.queryDetail(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/update/{id}]}" onto public java.lang.String com.dudu.mongo.controller.UserController.update(int)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/find/all]}" onto public java.util.List<com.dudu.mongo.domin.User> com.dudu.mongo.controller.UserController.find()
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/delete/{id}]}" onto public java.lang.String com.dudu.mongo.controller.UserController.delete(int)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/add]}" onto public java.lang.String com.dudu.mongo.controller.UserController.insert()
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/get/{id}]}" onto public com.dudu.mongo.domin.User com.dudu.mongo.controller.UserController.getUser(int)
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/insert]}" onto public java.lang.String com.dudu.mongo.controller.UserController.insertAll()
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/find/{start}]}" onto public java.util.List<com.dudu.mongo.domin.User> com.dudu.mongo.controller.UserController.findByPage(int,com.dudu.mongo.domin.User)
+2018-10-30 18:36:51   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/my/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:36:51   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:36:51   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:36:51   INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in businessExceptionHandler
+2018-10-30 18:36:51   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:36:51   INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-10-30 18:36:52   INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-10-30 18:36:52   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-10-30 18:36:52   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-10-30 18:36:52   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'wallFilter' has been autodetected for JMX exposure
+2018-10-30 18:36:52   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-10-30 18:36:52   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'wallFilter': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallFilter,type=WallFilter]
+2018-10-30 18:36:52   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-10-30 18:36:52   INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-10-30 18:36:52   INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2018-10-30 18:36:52   INFO  com.dudu.Application - Started Application in 1.506 seconds (JVM running for 174.865)
+2018-10-30 18:37:15   INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16a2690: startup date [Tue Oct 30 18:36:50 CST 2018]; root of context hierarchy
+2018-10-30 18:37:15   INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-10-30 18:37:15   INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-10-30 18:37:15   INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:4, serverValue:30}] to localhost:27017 because the pool has been closed.
+2018-10-30 18:37:16   INFO  com.dudu.Application - Starting Application on Denglimeng with PID 62300 (D:\source\development\workspace\java\demo2\target\classes started by dlm in D:\source\development\workspace\java\demo2)
+2018-10-30 18:37:16   INFO  com.dudu.Application - No active profile set, falling back to default profiles: default
+2018-10-30 18:37:16   INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@11cc991: startup date [Tue Oct 30 18:37:16 CST 2018]; root of context hierarchy
+2018-10-30 18:37:16   INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4eddaa5c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-30 18:37:16   INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2018-10-30 18:37:16   INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 540 ms
+2018-10-30 18:37:16   INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-10-30 18:37:16   INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-10-30 18:37:16   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-30 18:37:16   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-30 18:37:16   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-30 18:37:16   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-30 18:37:16   INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-10-30 18:37:16   INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=1280}
+2018-10-30 18:37:16   INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:31}] to localhost:27017
+2018-10-30 18:37:16   INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 1]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=331488}
+2018-10-30 18:37:16   INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:6, serverValue:32}] to localhost:27017
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@11cc991: startup date [Tue Oct 30 18:37:16 CST 2018]; root of context hierarchy
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @ModelAttribute methods in businessExceptionHandler
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @InitBinder methods in businessExceptionHandler
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/ex]}" onto public java.lang.String com.dudu.controller.BaseErrorController.error()
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/exception]}" onto public void com.dudu.controller.BaseErrorController.catchException()
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/json]}" onto public void com.dudu.controller.BaseErrorController.json(org.springframework.ui.ModelMap)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index]}" onto public java.lang.String com.dudu.controller.IndexController.index(org.springframework.ui.Model)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main]}" onto public java.lang.String com.dudu.controller.IndexController.main(org.springframework.ui.Model)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yangoindex]}" onto public java.lang.String com.dudu.controller.IndexController.yangoindex(org.springframework.ui.Model)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.dudu.controller.IndexController.queryContractIndex(org.springframework.ui.Model)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/delete],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.deleteLearn(java.lang.Long[])
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/queryLeanList],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.queryLearnList(com.dudu.util.Page<com.dudu.model.LeanQueryLeanListReq>)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/update],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.updateLearn(com.dudu.domain.LearnResource)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn]}" onto public java.lang.String com.dudu.controller.LearnController.learn(org.springframework.ui.Model)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/add],methods=[POST]}" onto public com.dudu.util.AjaxObject com.dudu.controller.LearnController.addLearn(com.dudu.domain.LearnResource)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/toLogin]}" onto public java.lang.String com.dudu.controller.LoginController.toLogin(org.springframework.ui.Model)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.controller.LoginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/500],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.MyBasicErrorController.errorHtml500(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/404],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.MyBasicErrorController.errorHtml400(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/500]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> com.dudu.controller.MyBasicErrorController.error500(javax.servlet.http.HttpServletRequest)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryOrderByDays]}" onto public java.util.List<com.dudu.mongo.domin.认购> com.dudu.controller.OrderController.queryOrderByDays(int)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/notifyPay]}" onto public void com.dudu.controller.PayController.notifyPay(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.dudu.model.PaySaPi) throws java.io.UnsupportedEncodingException
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/returnPay]}" onto public org.springframework.web.servlet.ModelAndView com.dudu.controller.PayController.returnPay(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays/pay]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.controller.PayController.pay(javax.servlet.http.HttpServletRequest,java.lang.String,int) throws java.io.UnsupportedEncodingException
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pays]}" onto public java.lang.String com.dudu.controller.PayController.payindex()
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryContract],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.dudu.mongo.controller.QueryContractController.queryContract(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryContractDetail],methods=[POST]}" onto public java.util.List<com.dudu.mongo.domin.合同> com.dudu.mongo.controller.QueryContractController.queryDetail(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/update/{id}]}" onto public java.lang.String com.dudu.mongo.controller.UserController.update(int)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/find/all]}" onto public java.util.List<com.dudu.mongo.domin.User> com.dudu.mongo.controller.UserController.find()
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/delete/{id}]}" onto public java.lang.String com.dudu.mongo.controller.UserController.delete(int)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/add]}" onto public java.lang.String com.dudu.mongo.controller.UserController.insert()
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/get/{id}]}" onto public com.dudu.mongo.domin.User com.dudu.mongo.controller.UserController.getUser(int)
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/insert]}" onto public java.lang.String com.dudu.mongo.controller.UserController.insertAll()
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/mongodb/user/find/{start}]}" onto public java.util.List<com.dudu.mongo.domin.User> com.dudu.mongo.controller.UserController.findByPage(int,com.dudu.mongo.domin.User)
+2018-10-30 18:37:16   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/my/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:37:16   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:37:16   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:37:16   INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in businessExceptionHandler
+2018-10-30 18:37:16   INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 18:37:17   INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-10-30 18:37:17   INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-10-30 18:37:17   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-10-30 18:37:17   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-10-30 18:37:17   INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'wallFilter' has been autodetected for JMX exposure
+2018-10-30 18:37:17   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-10-30 18:37:17   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'wallFilter': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallFilter,type=WallFilter]
+2018-10-30 18:37:17   INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-10-30 18:37:17   INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-10-30 18:37:17   INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2018-10-30 18:37:17   INFO  com.dudu.Application - Started Application in 1.246 seconds (JVM running for 199.963)
+2018-10-30 18:37:33   INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-10-30 18:37:33   INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 5 ms

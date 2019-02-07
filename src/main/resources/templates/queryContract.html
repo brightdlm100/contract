@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<meta name="description" content="此代码内容为超萌的猫头鹰界面" />
+<title>查询</title>
+
+<link rel="stylesheet" href="../static/assets/css/jq22.css"  th:href="@{/assets/css/jq22.css}"  />
+<link rel="stylesheet" href="../static/assets/css/font-awesome.min.css" th:href="@{/assets/css/font-awesome.min.css}"/>
+<link rel="stylesheet" href="../static/assets/css/bootstrap.min.css" th:href="@{/assets/css/bootstrap.min.css}"/>
+
+<script src="../static/assets/js/jquery-1.10.2.min.js" th:src="@{/assets/js/jquery-1.10.2.min.js}"></script>
+<script src="../static/assets/js/bootstrap.min.js" th:src="@{/assets/js/bootstrap.min.js}"></script>
+<script src="../static/assets/js/jquery.messager.js" th:src="@{/assets/js/jquery.messager.js}"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js'></script>	
+<script src="../static/assets/js/jquery.alertable.js" th:src="@{/assets/js/jquery.alertable.js}"/></script>
+<link rel="stylesheet" href="../static/assets/css/jquery.alertable.css" th:href="@{/assets/css/jquery.alertable.css}"/>
+
+    <script th:inline="javascript">
+        var baseURL = [[${ctx}]];
+    </script>
+    <script type="text/javascript">
+        $(function() {
+        	//$('[data-toggle="popover"]').popover(); 
+        	   $('#wx').popover({
+			        trigger : 'click',//鼠标以上时触发弹出提示框
+			        html:true,//开启html 为true的话，data-content里就能放html代码了
+			        content:"<img width='100%' src='/contract/assets/images/wx.png'/>",
+			    });
+			            $('#login #doQuery').hover(function() {
+                $('#owl-login').addClass('password');
+            },function() {
+                $('#owl-login').removeClass('password');
+            }).blur(function() {
+                $('#owl-login').removeClass('password');
+            });
+
+            //简单登录操作
+            $("#doQuery").click(function (e) {
+                if($("#userName").val()==null||$("#userName").val()==""||$("#userName").val().length==0){
+                	showTip("请输入客户姓名或房号！");
+                	return;
+                }
+                var p = /[0-9]/;
+                var b = p.test($("#userName").val());
+                if(b==true&&$("#userName").val().length<4){
+                	showTip("房号查询字段太短，请输入更精确的房号...");
+                	return;
+                }
+            	$.ajax({
+                    type : "POST",
+                    url : baseURL+"queryContract",
+                    data : {
+                        "userName" : $("#userName").val(),
+                    },
+                    dataType : "json",
+                    success : function(data) {
+                    	$("#content").empty();
+                    	var titleli=$("<li>").addClass("list-group-item list-group-item-warning").append("查询到"+data.info.length+"条记录").css({"text-align":"center","font-weight":"1000","font-color":"black"});
+                    	var titleul=$("<ul>").addClass("list-group").append(titleli);      
+                    	$("#content").append(titleul);
+                        if (data.result == "1") {
+                            var list=data.info;
+                            for(var i=1;i<=list.length;i++){
+                            	var strs=list[i-1].split(",");
+                            	var li1=$("<li>").addClass("list-group-item list-group-item-danger").append("客户姓名："+strs[0]).css("text-align","left");
+                            	var li2=$("<li>").addClass("list-group-item list-group-item-info").append("房间："+strs[1]).css("text-align","left");
+                            	//var li3=$("<li>").addClass("list-group-item list-group-item-success").append("手机号："+strs[2]).css("text-align","left");
+                            	var li4=$("<li>").addClass("list-group-item list-group-item-info").append("建筑面积："+strs[3]).css("text-align","left");
+                            	var li5=$("<li>").addClass("list-group-item list-group-item-success").append("合同签订日期："+strs[4]).css("text-align","left");
+                            	var li6=$("<li>").addClass("list-group-item list-group-item-warning").append("业务员："+strs[5]).css("text-align","left");
+                            	//.css({"text-align":"center","font-color":"black"});
+                            	var ul=$("<ul>").addClass("list-group").append(li1).append(li2).append(li4).append(li5).append(li6); //.append(li3)
+                            	$("#content").append(ul);
+                            }
+                        }
+                    }
+                });
+            });
+        });
+        function showTip(msg){
+            $.alertable.alert(msg, {
+              show: function() {
+                $(this.overlay).velocity('transition.fadeIn');        
+                $(this.modal).velocity('transition.flipBounceYIn');
+              },
+              hide: function() {
+                $(this.overlay).velocity('transition.fadeOut');
+                $(this.modal).velocity('transition.perspectiveUpOut');
+              } 
+          });  
+        }
+        
+    </script>
+    
+    <style type="text/css">
+	    .hiden{
+	       display:none;
+	    }
+	</style>
+</head>
+<body>
+<script src="http://open.sojson.com/common/js/canvas-nest.min.js" count="360" zindex="-2" opacity="0.5" color="255,0,255 " type="text/javascript"></script>
+<!-- begin -->
+<div id="login">
+    <div class="wrapper">
+        <div class="login">
+            <form action="#" method="post" class="container offset1 loginform">
+                <div id="owl-login">
+                    <div class="hand"></div>
+                    <div class="hand hand-r"></div>
+                    <div class="arms">
+                        <div class="arm"></div>
+                        <div class="arm arm-r"></div>
+                    </div>
+                </div>
+                <div class="pad" id="pad">
+                    <input type="hidden" name="_csrf" value="9IAtUxV2CatyxHiK2LxzOsT6wtBE6h8BpzOmk="/>
+                    <div class="control-group">
+                        <div class="controls">
+                            <label for="userName" class="control-label"><i class="fa fa-user" aria-hidden="true"></i></label>
+                            <input id="userName" type="text" name="email" placeholder="请输入客户姓名或房号" tabindex="1" autofocus="autofocus" class="form-control input-medium" />
+                        </div>
+                    </div>
+                    
+                       <div class="control-group">
+                        <div class="controls" >
+                            <label for="password" class="control-label"><i class="fa fa-key" aria-hidden="true"></i></label>
+                            <button type="button" id="doQuery" class="btn btn-success form-control input-medium" style="font-size:20px;padding:6px  60px">          查    询        </button>
+<!--                            <input id="password" type="password" name="password" placeholder="密码" tabindex="2" class="form-control input-medium" />
+ -->                        </div>
+                    </div>
+                    
+                    <div id="content" style="text-align:center">
+                    </div>
+                    
+                    
+                </div>
+                    
+                 <div id="about" style="text-align:center">
+                 <button type="button" id="wx" title="作者小萌狗,请多多指教。" class="btn btn-warning  input-medium" style="font-size:14px;" data-toggle="popover"   data-placement="bottom" >          关于        </button>
+                    	<!-- <a id="wx" href="#" title="作者小萌狗,请多多指教" data-toggle="popover"   data-placement="bottom" >关于</a> -->
+                    </div>   
+                  
+           <!--      <div class="form-actions "  style="text-align:center" >
+                    
+                </div> -->
+            </form>
+            
+        </div>
+    </div>
+</div>
+
+
+<!-- end -->
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html >
+<head>
+    <title>功能大全</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js'></script>	
+	 <script src="../static/assets/js/jquery.alertable.js" th:src="@{/assets/js/jquery.alertable.js}"/></script>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- bootstrap-table -->
+    <script src="../static/assets/js/bootstrap-table.min.js" th:src="@{/assets/js/bootstrap-table.min.js}"/></script>
+    <link href="https://cdn.bootcss.com/bootstrap-table/1.11.1/bootstrap-table.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/bootstrap-table/1.11.1/locale/bootstrap-table-zh-CN.min.js"></script>
+	 <script src="../static/assets/js/tableExport/libs/js-xlsx/xlsx.core.min.js" th:src="@{/assets/js/tableExport/libs/js-xlsx/xlsx.core.min.js}"/></script>
+	 <script src="../static/assets/js/tableExport/libs/FileSaver/FileSaver.min.js" th:src="@{/assets/js/tableExport/libs/FileSaver/FileSaver.min.js}"/></script>
+	 <script src="../static/assets/js/tableExport/libs/jsPDF/jspdf.min.js" th:src="@{/assets/js/tableExport/libs/jsPDF/jspdf.min.js}"/></script>
+	 <script src="../static/assets/js/tableExport/libs/jsPDF-AutoTable/jspdf.plugin.autotable.js" th:src="@{/assets/js/tableExport/libs/jsPDF-AutoTable/jspdf.plugin.autotable.js}"/></script>
+	 <script src="../static/assets/js/tableExport/libs/html2canvas/html2canvas.min.js" th:src="@{/assets/js/tableExport/libs/html2canvas/html2canvas.min.js}"/></script>
+	 <script src="../static/assets/js/tableExport/tableExport.js" th:src="@{/assets/js/tableExport/tableExport.js}"/></script>
+	  <script src="https://cdn.bootcss.com/bootstrap-table/1.12.1/extensions/export/bootstrap-table-export.min.js"></script>
+	 
+
+  
+<!--    <link rel="stylesheet" href="../static/assets/css/htmleaf-demo.css" th:href="@{/assets/css/htmleaf-demo.css}"/> -->  
+     <link rel="stylesheet" href="../static/assets/css/jquery.alertable.css" th:href="@{/assets/css/jquery.alertable.css}"/>
+		<!--[if IE]>
+		<script src="http://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	   <![endif]-->
+    <script th:src="@{/js/yangoindex.js}"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+   <style>
+       .panel-body{
+           margin:10px  5px;
+       }
+       .qrybtn{
+           margin:10px 5px;
+       }
+   
+   </style>
+</head>
+<body >
+
+     <script src="http://open.sojson.com/common/js/canvas-nest.min.js" count="360" zindex="-2" opacity="0.5" color="255,0,255 " type="text/javascript"></script>
+
+  <div class="app"  style="margin: 20px 20px;padding: 10px 30px;">
+
+		
+	      <div class="panel-body">
+	      
+	      	 <ul class="nav nav-pills" >
+			      <li class="nav-item active">
+			        <a class="nav-link active" data-toggle="pill" href="#contract">查询合同</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" data-toggle="pill" href="#orderquery">到期认购</a>
+			      </li>
+			       <li class="nav-item">
+			        <a class="nav-link" data-toggle="pill" href="#count">统计</a>
+			      </li>
+			  </ul>
+	          <!-- <button id="orderQryBtn" type="button" class=" qrybtn btn btn-warning btn-lg" data-toggle="collapse" data-target="#orderquery">查询到期认购</button>
+	           <button id="contractQuery" type="button" class=" qrybtn btn btn-success btn-lg" data-toggle="collapse" data-target="#contract">查询合同</button> -->
+	           <div class="tab-content">
+		           <div id="orderquery" class="tab-pane fade">
+		                  <div class=""  style="padding: 20px 10px;width: 500px;">
+	                            <input id="qryByDays"   class="form-control radius" placeholder="请指定多少天过期，默认7天"  type="text"   style="width:350px;display:inline" />
+	                            <button class="btn btn-danger"  id="querybtn"><i class="fa fa-search"></i>查询</button>
+	                        </div>
+	                        <table id="ordertable"></table>
+		           </div>
+		           <div id="contract" class=" tab-pane active">
+		                  <div class=""  style="padding: 20px 10px;width: 500px;">
+	                            <input id="contractQryInput"   class="form-control radius" placeholder="请输入客户姓名或房号"  type="text"   style="width:350px;display:inline" />
+	                            <button class="btn btn-success "  id="contractQryBtn"><i class="fa fa-search"></i>查询</button>
+	                            
+	                        </div>
+	                           <div id="content"  class="row">
+	                           </div>
+		          </div>
+                  <div id="count" class=" tab-pane ">
+		                  <div class=""  style="padding: 20px 10px;width: 500px;">
+	                            <input id="contractQryInput"   class="form-control radius" placeholder="请输入客户姓名或房号"  type="text"   style="width:350px;display:inline" />
+	                            <button class="btn btn-success "  id="contractQryBtn"><i class="fa fa-search"></i>查询</button>
+	                            
+	                        </div>
+	                           <div id="content"  class="row">
+	                           </div>
+		          </div>                                    
+		</div>                                
+		       
+	</div>
+	                        
+
+</body>
+</html>
